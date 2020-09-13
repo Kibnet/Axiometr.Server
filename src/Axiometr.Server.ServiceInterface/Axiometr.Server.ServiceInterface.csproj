@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="RavenDB.Client" Version="5.0.2" />
+    <PackageReference Include="Serilog" Version="2.9.0" />
+    <PackageReference Include="ServiceStack.Server" Version="5.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Axiometr.Server.Domain\Axiometr.Server.Domain.csproj" />
+    <ProjectReference Include="..\Axiometr.Server.ServiceModel\Axiometr.Server.ServiceModel.csproj" />
+  </ItemGroup>
+
+</Project>
